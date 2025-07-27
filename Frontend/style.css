@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+#header{
+    color:azure;
+    background-color:rebeccapurple;
+    height:150px;
+    font-size:24px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#Body{
+    background-color:turquoise;
+    height: 100vh;
+}
+#Timer{
+    height:100px;
+    background-color:red;
+ 
+    width:20vw;
+   position:relative;
+   left:40%;  
+   margin-bottom:10px;
+
+}
+#question{
+    height:200px;
+    background-color:green;
+
+}
+#Score{
+    height:60px;
+    width:100px;
+    margin-right:40px;
+    font-size:24px;
+    background-color:yellow;
+  
+}
+#TimeScore{
+    display:flex;
+    margin:0;
+    justify-content:space-between;
+    background-color:pink;
+}
+#Options {
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 30px;
+    align-content: start;
+}
+
+#Options button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+
+  margin-left:300px;
+  margin-bottom:100px;
+  margin-top:75px;
+}
