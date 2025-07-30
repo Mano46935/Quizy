@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+#Header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:200px;
+    background-color: azure;
+    font-size:24px;
+    color:rebeccapurple;
+}
+#text1{
+    font-size:24px;
+    display:flex;
+    color:purple;
+    align-items:center;
+    justify-content:center;
+    margin:50px;
+}
+#text2{
+     font-size:24px;
+    display:flex;
+    color:purple;
+    align-items:center;
+    justify-content:center;
+    margin:50px;
+}
+#text3{
+      font-size:24px;
+    display:flex;
+    color:purple;
+    align-items:center;
+    justify-content:center;
+    margin:50px;
+}
+#button1{
+     font-size:24px;
+  
+    color:purple;
+  
+}

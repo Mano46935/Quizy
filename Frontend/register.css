@@ -27,3 +27,20 @@ padding: 20px;
     color:cyan;
   
 }
+#LoginInfo{
+    display:flex;
+    height:200px;
+flex-direction:column;
+padding: 20px; 
+    gap: 15px;
+    justify-content:center;
+    align-items: center;
+
+    background-color:blue;
+}
+#LoginHead{
+    font-size:24px;
+    margin-bottom:20px;
+    color:cyan;
+  
+}
